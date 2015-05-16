@@ -1,0 +1,31 @@
+<template name="home">
+     
+      <div class="hero">
+        <div class="row">
+          <div class="large-12 columns intro-text">
+		<p>
+			Orion allows the admin to easily 
+			<a href="{{ pathFor 'dictionary.update' }}">edit</a> 
+			content of the site, like the following text: <br/>
+			<i class="text-muted">"{{ dict 'public.homeText' 'No text' }}"</i>.
+		</p>
+          </div>
+        </div>
+      </div>
+
+	{{# each posts }}
+		{{> homePost }}
+	{{/ each }}
+</template>
+
+<template name="homePost">
+	   <div class="row about">
+	        <div class="medium-6 large-8 columns">
+	          <h4>{{title}} <small>by {{ getCreator.profile.name }}</small></h4>
+	          <p>{{{body}}}</p>
+	        </div>
+	        <div class="medium-6 large-4 columns">
+	          <img src="http://placehold.it/550x300">
+	        </div>
+      </div>
+</template>

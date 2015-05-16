@@ -1,0 +1,21 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+orionjs:core
+rwatts:orionjs-foundation
+ewall:foundation
+fortawesome:fontawesome
+orionjs:filesystem
+orionjs:s3
+orionjs:summernote
+orionjs:froala
+orionjs:file-attribute
+orionjs:relationships
+accounts-password
+less
+reywood:publish-composite
+dburles:collection-helpers
+orionjs:pages
