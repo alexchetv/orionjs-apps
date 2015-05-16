@@ -7,5 +7,5 @@ See [Orionjs Core](https://github.com/orionjs/orion) for the core project , and 
 ---
 
 ## Apps
-- [Foundation Blog Starter](https://github.com/rwatts3/orionjs-apps/foundation-blog-starter) - *Created using the Orionjs Foundation Admin Theme*
+- [Foundation Blog Starter](https://github.com/madeby-ryanwatts/orionjs-apps/tree/master/foundation-blog-starter) - *Created using the Orionjs Foundation Admin Theme*
 
